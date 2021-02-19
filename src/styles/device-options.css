@@ -1,0 +1,60 @@
+.device-options-page{
+  background: url('/assets/img/bg-img.jpg');
+  /* Keep the inherited background full size. */
+  background-attachment: fixed;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#device-options-container{
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
+}
+
+#device-options-container:before {
+  content: "";
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .2);
+  filter: blur(10px);
+  margin: -20px;
+}
+
+.select{
+  color: white;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#video{
+  width: 100%;
+}
+
+.submit-device-options{
+  width: 100%;
+  margin-top: 2rem;
+  padding: 10px;
+  border: 1px solid white;
+  font-weight: bold;
+}

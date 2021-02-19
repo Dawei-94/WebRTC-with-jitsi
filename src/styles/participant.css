@@ -1,0 +1,62 @@
+.participants-split-videos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top:0;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+}
+
+.participant-full{
+  position: absolute;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.presenter-video{
+  position: relative;
+}
+.participants-split-videos video {
+  width: 150px!important;
+  margin-bottom: 10px;
+}
+
+.user-split-image{
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.participant-full img, .participant-full video, .participant-full div{
+  width: 100%;
+}
+.btn-gradient {
+  border-radius: 0px;
+  font-weight: bold;
+  background-image: linear-gradient(#d86710, #40164f);
+  border-color: #ffffff;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+.h-dj {
+  height: 204px;
+}
+
+#BuyDjDrink .modal-content {
+  border: 2px solid #ff00f0;
+  background-image: url('/assets/img/bg-dj-drink.png');
+  background-size: cover;
+  background-position: center;
+}

@@ -1,0 +1,12 @@
+.participant-image{
+  width: 150px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-buttons {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}

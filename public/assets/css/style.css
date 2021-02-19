@@ -1,0 +1,265 @@
+﻿body {
+    background-image: url(../img/bg-img.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: top;
+}
+.bg-body
+{
+    background-image: url(../img/bg-img1.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: top;
+}
+a {
+    cursor: pointer;
+}
+.text-yellow
+{
+    color: #ffa800;
+}
+.bg-black
+{
+    background-color:#000000;
+}
+.btn-effect {
+    background-image: url(../img/button-effect.png);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: top;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.btn-effect:hover {
+color: #009d54;
+}
+.bg-section {
+    background-image: url(../img/bg-section.png);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: top;
+}
+.bg-form {
+    background-image: url(../img/bg-form.png);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: top;
+}
+.bg-watch {
+    background-image: url(../img/bg-watch.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: bottom;
+}
+.bg-right {
+    background-image: url(../img/bg-right.png);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: top;
+}
+.bg-gradient {
+    background-image: url(../img/bg-gradient.png);
+    background-size: contain;
+    background-repeat: round;
+    background-position: top;
+}
+.bg-right-bottom
+{
+    background-image: url(../img/bg-right-bottom.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: bottom;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.input-img { 
+    background-image: url(../img/emojji.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    font-weight: 700;
+  }
+  .dj-box:hover .dj-img { 
+    background-image: url(../img/love_icon.png);
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 0;
+    background-repeat: no-repeat;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    cursor: pointer;
+  }
+  .dj-img-active { 
+    background-image: url(../img/love_icon-red.png) !important;
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 0;
+    background-repeat: no-repeat;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  .dj-video { 
+    padding: 20px;
+    position: absolute;
+    top: 0;
+
+}
+  
+.media h5{
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+.media p{
+    color: #ffffff;
+    font-size: 14px;
+    text-align: justify;
+}
+.media img{
+width: 60px;
+}
+.btn-custom
+{
+    border-radius: 0px;
+    font-weight: bold;
+    background-color: #000000;
+    border-color: #ffffff;
+    color: #ffffff;
+    font-size: 12px;
+}
+.btn-custom:hover
+{
+    border-radius: 0px;
+    font-weight: bold;
+    background-color: #000000;
+    border-color: #ffffff;
+    color: #cccccc;
+
+}
+.btn-rec
+{
+    background-color: #fe0000;
+    border-radius: 0px;
+    position: absolute;
+    right: 0px;
+    font-weight: bold;
+    font-size: 24px;
+    z-index: 1;
+}
+.btn-dj
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    height: 42px;
+    padding: 0px 40px;
+    color: #ffffff;
+    font-size: 24px;
+    background-color: #00000070;
+    font-weight: 600;
+    border: 1px solid #ffffff;
+}
+.btn-dj:hover
+{
+color: #cccccc;
+border: 1px solid #cccccc;
+}
+.heading-btn
+{
+    color: #b6b6b6;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1;
+    text-align: left;
+    width: 100%;
+    text-decoration: unset;
+    padding: 3px;
+}
+.heading-btn:hover, .heading-text:focus, .heading-btn:active
+{
+    color: #b6b6b6;
+    text-decoration: unset;
+}
+.heading-text
+{
+    color: #b6b6b6;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+    width: 100%;
+    text-decoration: unset;
+    padding-left: 2rem;
+}
+footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+    footer p {
+        margin-bottom: .25rem;
+    }
+
+    .owl-demo .item {
+        margin: 0px 5px;
+        color: #FFF;
+        text-align: center;
+    }
+    .owl-demo .item img{
+        border: 1px solid #ffffff;
+    }
+  
+      .customNavigation {
+        text-align: center;
+      }
+  
+      .customNavigation a {
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        color: #ffffff;
+      }
+.right-bar
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+.social-icons {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    margin: 0px 10px -10px 15px;
+}
+.social-icons ul li{
+    display: inline-block;
+}
+.font-16
+{
+    font-size: 16px;
+}
+@media (max-width:768px) {
+    .right-bar {
+        position: relative;
+        top: 10px;
+    }
+}
